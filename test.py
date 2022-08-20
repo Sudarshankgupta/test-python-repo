@@ -3,7 +3,9 @@ print('abc')
 
 a = 123
 b = 567
-c = 'z'
+c = 5
+d = 12
+e = 0
 
 import pandas as pd
 print(pd.__version__)
@@ -11,5 +13,7 @@ print(pd.__version__)
 result = 0
 print(result)
 
-for i in [a, b, c]:
+for i in [a, b, c, d, e]:
     result = result + i
+
+print(result)
